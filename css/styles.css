@@ -223,6 +223,11 @@ padding: 0 1.5rem;
     color: #fff;
 }
 
+.home .content h4 {
+    font-size: 6rem;
+    color: #fff;
+}
+
 .home .content p {
     font-size: 2rem;
     font-weight: lighter;

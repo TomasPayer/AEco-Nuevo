@@ -428,18 +428,19 @@ padding: 2.5rem 0;
 }
 
 .footer .share a {
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: 4rem;
     color: #fff;
-    border: var(--border);
-    margin: .3rem;
-    border-radius: 50%;
+    margin: .4rem;
+    letter-spacing: 2rem;
+    text-align: center;
 }
 
 .footer .share a:hover {
     background-color: #98AC33;
+    border-radius: 40px;
 }
 
 .footer .links {
@@ -451,7 +452,7 @@ padding: 2.5rem 0;
 }
 
 .footer .links a {
-padding: 7rem 2rem;
+padding: 2rem 1rem;
 color: #fff;
 border-radius: var(--border);
 font-size: 2rem;

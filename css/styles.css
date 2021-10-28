@@ -228,12 +228,13 @@ padding: 0 1.5rem;
     color: #fff;
 }
 
-.home .content p {
+.home .content h3 p {
     font-size: 2rem;
     font-weight: lighter;
     line-height: 1.8;
     padding: 1rem 0;
     color: #eee;
+    text-align: justify;
 }
 
 .about .row {

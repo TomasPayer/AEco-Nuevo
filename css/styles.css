@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
-    --main-color:#d3ad7f;
-    --black:#202f41;
-    --bg:#202f41;
-    --border:.1rem solid rgba(255,255,255,.3);
+    --main-color: #d3ad7f;
+    --black: #202f41;
+    --bg: #202f41;
+    --border: .1rem solid rgba(255, 255, 255, .3);
 }
 
 * {
     font-family: 'Roboto', sans-serif;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    outline: none; border: none;
+    outline: none;
+    border: none;
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
@@ -80,18 +82,20 @@ section {
     padding: 1px 7%;
     border-bottom: var(--border);
     position: fixed;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
 }
 
 .header .logo img {
-height: 6rem;
+    height: 6rem;
 }
 
 .header .navbar a {
-margin: 0 1rem;
-font-size: 1.6rem;
-color: #fff;
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
 }
 
 .header .navbar a:hover {
@@ -117,7 +121,8 @@ color: #fff;
 
 .header .search-form {
     position: absolute;
-    top: 115%; right: 7%;
+    top: 115%;
+    right: 7%;
     background: #fff;
     width: 50rem;
     height: 5rem;
@@ -152,12 +157,13 @@ color: #fff;
 }
 
 .header .cart-items-container {
-position: absolute;
-top: 100%; right: -100%;
-height: calc(100vh - 9.5rem);
-width: 35rem;
-background: #fff;
-padding: 0 1.5rem;
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    height: calc(100vh - 9.5rem);
+    width: 35rem;
+    background: #fff;
+    padding: 0 1.5rem;
 }
 
 .header .cart-items-container.active {
@@ -174,7 +180,8 @@ padding: 0 1.5rem;
 
 .header .cart-items-container .cart-item .fa-times {
     position: absolute;
-    top: 1rem; right: 1rem;
+    top: 1rem;
+    right: 1rem;
     font-size: 2rem;
     cursor: pointer;
     color: var(--black);
@@ -308,7 +315,7 @@ padding: 0 1.5rem;
     background: #fff;
 }
 
-.menu .box-container .box:hover > * {
+.menu .box-container .box:hover>* {
     color: var(--black);
 }
 
@@ -339,7 +346,7 @@ padding: 0 1.5rem;
 }
 
 .products .box-container .box .image {
-padding: 2.5rem 0;
+    padding: 2.5rem 0;
 }
 
 .products .box-container .box .image img {
@@ -352,16 +359,17 @@ padding: 2.5rem 0;
 
 .products .box-container .box .content .stars {
     padding: 1.5rem;
-} 
+}
 
 .products .box-container .box .content i {
     font-size: 1.7rem;
     color: #98AC33;
 }
+
 .products .box-container .box .content .price {
     color: #fff;
     font-size: 2.5rem;
-} 
+}
 
 .products .box-container .box .content span {
     text-decoration: line-through;
@@ -452,10 +460,10 @@ padding: 2.5rem 0;
 }
 
 .footer .links a {
-padding: 2rem 1rem;
-color: #fff;
-border-radius: var(--border);
-font-size: 2rem;
+    padding: 2rem 1rem;
+    color: #fff;
+    border-radius: var(--border);
+    font-size: 2rem;
 }
 
 .footer .links a:hover {
@@ -505,7 +513,8 @@ font-size: 2rem;
 
     .header .navbar {
         position: absolute;
-        top: 100%; right: -100%;
+        top: 100%;
+        right: -100%;
         background: #fff;
         width: 30rem;
         height: calc(100vh - 9.5rem);
@@ -547,6 +556,13 @@ font-size: 2rem;
     html {
         font-size: 50%;
     }
-    
+
+    .home {
+        background: url(../img/chicken.jpg) no-repeat;
+        display: flex;
+        align-items: center;
+        background-size: 100% 100%;
+        background-position: center;
+    }
 
 }

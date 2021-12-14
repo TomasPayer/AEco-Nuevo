@@ -56,7 +56,7 @@ section {
 }
 
 .heading span {
-    color: #98AC33;
+    color: #00c4cc;
     text-transform: uppercase;
 }
 
@@ -66,7 +66,7 @@ section {
     padding: .9rem 3rem;
     font-size: 1.7rem;
     color: #fff;
-    background: #98AC33;
+    background: #00c4cc;
     cursor: pointer;
 }
 
@@ -99,8 +99,8 @@ section {
 }
 
 .header .navbar a:hover {
-    color: #98AC33;
-    border-bottom: .1rem solid #98AC33;
+    color:#00c4cc;
+    border-bottom: .1rem solid var(--black);
     padding-bottom: .5rem;
 }
 
@@ -112,7 +112,7 @@ section {
 }
 
 .header .icons div:hover {
-    color: #98AC33;
+    color: #00c4cc;
 }
 
 #menu-btn {
@@ -211,37 +211,69 @@ section {
     text-align: center;
 }
 
-.home {
-    min-height: 100vh;
+
+form {
+    background-color: white;
+    border-radius: 15px;
     display: flex;
-    align-items: center;
-    background: url(../img/chicken.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    width: 300px;
 }
 
-.home .content {
-    max-width: 60rem;
+.form {
+    width: 100%;
+    margin: auto;
 }
 
-.home .content h3 {
-    font-size: 6rem;
-    text-transform: uppercase;
-    color: #fff;
+.form .group {
+    position: relative;
+    margin: 45px;
 }
 
-.home .content h4 {
-    font-size: 6rem;
-    color: #fff;
+input {
+    background: none;
+    color: var(--black);
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--main-color);
 }
 
-.home .content h3 p {
-    font-size: 2rem;
-    font-weight: lighter;
-    line-height: 1.8;
-    padding: 1rem 0;
-    color: #eee;
-    text-align: justify;
+label {
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease-in-out all;
+    pointer-events: none;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -14px;
+    font-size: 12px;
+}
+
+button {
+    background: var(--black);
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    padding-bottom: .5rem;
 }
 
 .about .row {
@@ -316,7 +348,7 @@ section {
 }
 
 .menu .box-container .box:hover>* {
-    color: var(--black);
+    color:#00c4cc;
 }
 
 .products .box-container {
@@ -342,7 +374,7 @@ section {
 }
 
 .products .box-container .box .icons a:hover {
-    background: var(--main-color);
+    background: #00c4cc;
 }
 
 .products .box-container .box .image {
@@ -363,7 +395,7 @@ section {
 
 .products .box-container .box .content i {
     font-size: 1.7rem;
-    color: #98AC33;
+    color: #00c4cc;
 }
 
 .products .box-container .box .content .price {
@@ -375,55 +407,6 @@ section {
     text-decoration: line-through;
     font-weight: lighter;
     font-size: 1.5rem;
-}
-
-.contact .row {
-    display: flex;
-    background: #98AC33;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.contact .row .map {
-    flex: 1 1 45rem;
-    width: 100%;
-    object-fit: cover;
-}
-
-.contact .row form {
-    flex: 1 1 45rem;
-    padding: 5rem 2rem;
-    text-align: center;
-}
-
-.contact .row form h3 {
-    text-transform: uppercase;
-    font-size: 3.5rem;
-    color: #fff;
-}
-
-.contact .row form .inputbox {
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    background: #202f41;
-    border: var(--border);
-}
-
-.contact .row form .inputbox span {
-    color: #fff;
-    font-size: 2rem;
-    padding-left: 2rem;
-}
-
-.contact .row form .inputbox input {
-    width: 100%;
-    padding: 2rem;
-    font-size: 1.7rem;
-    color: #fff;
-    text-transform: none;
-    background: none;
 }
 
 .footer {
@@ -447,7 +430,7 @@ section {
 }
 
 .footer .share a:hover {
-    background-color: #98AC33;
+    background-color: #00c4cc;
     border-radius: 40px;
 }
 
@@ -467,7 +450,7 @@ section {
 }
 
 .footer .links a:hover {
-    background: #98AC33;
+    background: #00c4cc;
 }
 
 .footer .credit {
@@ -478,16 +461,8 @@ section {
 }
 
 .footer .credit span {
-    color: #98AC33;
+    color: #00c4cc;
 }
-
-
-
-
-
-
-
-
 
 
 

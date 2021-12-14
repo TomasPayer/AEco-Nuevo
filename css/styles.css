@@ -99,7 +99,7 @@ section {
 }
 
 .header .navbar a:hover {
-    color:#00c4cc;
+    color: #00c4cc;
     border-bottom: .1rem solid var(--black);
     padding-bottom: .5rem;
 }
@@ -348,7 +348,7 @@ button:hover {
 }
 
 .menu .box-container .box:hover>* {
-    color:#00c4cc;
+    color: #00c4cc;
 }
 
 .products .box-container {

@@ -82,5 +82,23 @@ $(document).ready(function(){
         : cartCountPosition.top;
         $(cartBtn)
         .append("<span class='count'>1</span>");
-    })
-})
+
+        $(cartBtn).find(".count").each(function(i, count){
+            $(count).offset({
+                left: leftPos,
+                top: topPos
+            })
+            .animate(
+                {
+opcity:0
+            },
+            800,
+            function(){
+                $(this).remove();
+                cartCountValue++;
+                $(cartCount).text(cartCountValue);
+            }
+            );
+        });
+    });
+});

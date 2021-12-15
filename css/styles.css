@@ -603,7 +603,7 @@ button:hover {
 .cart {
     position: absolute;
     right: 3%;
-    top: 0;
+    top: 50px;
     margin: auto;
     border-radius: 4px;
     height: 60px;
